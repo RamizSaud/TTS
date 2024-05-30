@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Urdu Text to Speech</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="{{ url_for('static', filename='js/scripts.js') }}" defer></script>
+</head>
+<body class="body">
+    <h1 class="heading">Urdu Text to Speech</h1>
+    <main class="main">
+        <form id="tts-form">
+            <label for="urdu-text" class="label">Enter Urdu Text</label><br>
+            <textarea id="urdu-text" rows="4" cols="50" class="text"></textarea>
+            <button type="button" id="btn" class="btn">Submit</button>
+        </form>
+        <p id="indication" class="indication">Converting to Speech...</p>
+        <audio id="audio" class="audio" controls hidden>
+            Your browser does not support the audio element.
+        </audio>
+    </main>
+</body>
+</html>

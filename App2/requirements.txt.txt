@@ -1,0 +1,6 @@
+Flask
+Flask-Cors
+ai4bharat
+pandas
+torch
+torchaudio
