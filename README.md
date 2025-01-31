@@ -53,4 +53,6 @@ The project is organized into the following folders:
 
 - Tacotron2 model for text-to-speech.
 - Dataset creation using YouTube audiobooks.
-```
+
+## Contributors
+- Muhammad Ramiz Saud
