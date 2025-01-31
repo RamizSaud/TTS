@@ -1,6 +1,3 @@
-Got it! Here's the full `README.md` file with all the necessary content, including the additional details you mentioned:
-
-```
 # Urdu Text-to-Speech (TTS) System
 
 This repository contains a custom Urdu Text-to-Speech (TTS) system, trained using the Tacotron2 model, based on a dataset created from YouTube audiobooks. The system generates high-quality Urdu speech from text.
@@ -57,5 +54,3 @@ The project is organized into the following folders:
 - Tacotron2 model for text-to-speech.
 - Dataset creation using YouTube audiobooks.
 ```
-
-You can copy this entire content and paste it into your text editor for the `README.md` file.
